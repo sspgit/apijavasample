@@ -26,7 +26,7 @@ public class JavaSample {
 //        HttpClient httpclient = HttpClients.createDefault();
 
         try {
-            URIBuilder builder = new URIBuilder("https://services.cat.com/basicDaily/v4/SmuLoc/");
+            URIBuilder builder = new URIBuilder("https://services.somewhere.com/basicDaily/v4/SmuLoc/");
 
             builder.setParameter("limit", "{integer}");
             builder.setParameter("continuationToken", "{string}");
