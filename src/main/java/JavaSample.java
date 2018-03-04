@@ -23,7 +23,6 @@ public class JavaSample {
         HttpGet httpGet = new HttpGet(HttpGet.METHOD_NAME);
 
         CloseableHttpClient httpclient = HttpClients.createDefault();
-//        HttpClient httpclient = HttpClients.createDefault();
 
         try {
             URIBuilder builder = new URIBuilder("https://services.somewhere.com/basicDaily/v4/SmuLoc/");
